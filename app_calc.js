@@ -1,6 +1,6 @@
 'use strict';
 
-var conversion = [2,50];
+var conversion = [2.45,.4];
 
 var form = document.getElementById('calcForm');
 

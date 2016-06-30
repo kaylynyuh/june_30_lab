@@ -7,19 +7,7 @@ body {
 /* site styles */
 
 header {
-  height: 30px;
-}
-
-header h1 {
-  font-weight: bold;
-  margin-bottom: 0px;
-}
-
-header p {
-  margin-top: 0px;
-  font-size: 12px;
-  letter-spacing: 2px;
-  word-spacing: 2px;
+  height: 40px;
 }
 
 nav {
@@ -67,4 +55,39 @@ div.thunderstorm {
   font-weight: bold;
   padding-top: 12px;
   padding-left: 14px;
+}
+
+.middle-header img {
+  float: left;
+  margin-top: 10px;
+  margin-right: 200px;
+}
+
+.weather-stats ul li {
+  list-style: none;
+}
+
+.third-header {
+  background-color: #E1E4E6;
+  height: 40px;
+}
+
+.third-header p {
+  font-size: 14px;
+  font-weight: bold;
+  padding-top: 12px;
+  padding-left: 14px;
+  margin-top: 30px;
+}
+
+.images ul {
+  list-style: none;
+  float: left;
+  padding-left: 130px;
+  margin-top: 50px;
+}
+
+.images li {
+  display: inline;
+  padding: 10px 20px;
 }

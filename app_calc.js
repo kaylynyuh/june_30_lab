@@ -17,7 +17,7 @@ function submitHit() {
 }
 
 function performCalc() {
-  var newNumber =  submitHit() * conversion[1];
+  var newNumber =  submitHit() * rateSelector();
   console.log(newNumber);
   return newNumber;
 }
@@ -26,4 +26,13 @@ function printResult() {
   event.preventDefault();
   var elP = document.getElementById('result');
   elP.textContent = submitHit() + ' converts to ' + performCalc();
+}
+
+function rateSelector() {
+
+  var elSelect = document.getElementById('selectButton');
+  var i = elSelect.selectedIndex;
+  console.log('array is ', i);
+  return conversion[i];
+
 }

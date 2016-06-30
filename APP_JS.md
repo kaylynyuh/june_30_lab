@@ -5,3 +5,7 @@ What do you call a box that is slightly red? a red box.
 What do you call a boomerang that doesn't come back? A stick.
 
 Git out!!!!!!?!?!!?!?!?!?!?!?!?!?!?
+
+What do you call a patriotic dog?
+
+#YANKEE POODLE

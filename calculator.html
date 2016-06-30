@@ -1,0 +1,29 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <link rel = "stylesheet" href="css/reset.css">
+    <link rel = "stylesheet" href="css/style.css">
+  </head>
+  <body>
+    <header>
+      <h1> Calculator App </h1>
+    </header>
+    <main>
+      <form id="calcForm"name="calcApp">
+        <fieldset>
+          <label for="input_box"></label>
+          <input type="text" name="input_box" id="numberToConvert">
+          <select name="selectorBox" form="calcApp" id="selectButton">
+            <option value="inches-to-centimeters">Inches to Centimeters</option>
+            <option value="centimeters-to-inches">Centimeters to Inches</option>
+          </select>
+          <input type="submit" id="calcButton">
+        </fieldset>
+      </form>
+      <section>
+        <p id="result"></p>
+      </section>
+    </main>
+    <script src="app_calc.js"> </script>
+  </body>
+</html>
